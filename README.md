@@ -13,4 +13,7 @@ The argument is a data directory. The script should search through the directory
 nblearn.py will learn a naive Bayes model from the training data, and write the model parameters to a file called nbmodel.txt. The format of the model is up to you, but it should contain sufficient information for nbclassify.py to successfully classify new data.
 nbclassify.py will be invoked in the following way: >python3 nbclassify.py /path/to/input
 
+nblearn_part2 and nbclassify_part2 will experiment on 10% of the total data to check the accuracy
+nblearn_part3 and nbclassify_part3 will classify on the entire dataset with add one smoothing to it.
+
 Calculation of Precision, Recall and F1
